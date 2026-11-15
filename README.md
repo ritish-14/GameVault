@@ -32,18 +32,7 @@ Test-Path temporary.txt
 
 Expected checks: `debug.log` and `temp/sample.tmp` are ignored; `Test-Path temporary.txt` returns `False`; the history contains the feature work, merge, and revert commits. `main` and `feature` are local branches.
 
-## Push to your GitHub account
 
-1. Create a **public** GitHub repository named `GameVault`. Do not add a README, license, or `.gitignore` on GitHub.
-2. Replace `YOUR_GITHUB_USERNAME` below with your actual GitHub username, then run:
-
-```powershell
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/GameVault.git
-git push -u origin main
-git push -u origin feature
-```
-
-If you have already added a remote, inspect it with `git remote -v` and update it with `git remote set-url origin https://github.com/YOUR_GITHUB_USERNAME/GameVault.git` rather than adding `origin` again.
 
 ## Assignment evidence still to capture
 
